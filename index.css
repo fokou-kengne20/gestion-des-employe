@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    position:relative ;
+}
+.btn_add{
+    width:fit-content;
+    margin-bottom: 20px;
+    background-color: #2bc48a;
+    padding: 5px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: 0;
+    border-radius:6px;
+    text-decoration: 0;
+}
+table{
+    border-collapse: collapse;
+    color: #404040;
+}
+th{
+    font-size:16px;
+    border-bottom: 3px solid#ffcb61;
+    padding:5px 20px;
+    font-weight: 500;
+
+}
+td{
+     padding: 5px 20px;
+    font-weight: 500;
+    font-family: 14px; 
+    text-align: center;
+}
+.search-bar {
+  display: flex; /* Utilise Flexbox pour aligner les éléments */
+  align-items: center; /* Centre les éléments verticalement */
+  border: 1px solid #ccc;
+  border-radius: 25px; /* Bords arrondis pour un look moderne */
+  padding: 5px 10px;
+  width: 300px;
+  margin: 20px auto; /* Centre la barre de recherche sur la page */
+}
+
+.search-input {
+  border: none;
+  outline: none; /* Supprime le contour bleu par défaut au focus */
+  flex-grow: 1; /* Permet à l'input de prendre l'espace restant */
+  padding: 8px;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: transparent; /* Rend le fond du bouton transparent */
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button svg {
+  color: #555; /* Couleur de l'icône SVG */
+}
+
+
+
+
+.search-button:hover svg {
+  color: #007bff; /* Change la couleur de l'icône au survol */
+}
